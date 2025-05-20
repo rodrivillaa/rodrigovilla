@@ -1,0 +1,178 @@
+hostnamectl --help
+pwd
+ls
+ls -l
+ls -a
+ls repogit
+pwd
+ls /
+cd /
+ls
+cd /home
+cd ..
+cd..
+cd /home/vagrant
+pwd
+ls -a
+ls -l
+mkdir archivos
+ls
+ls -
+ls -l
+mkdir archivos
+cd archivos
+ls
+cd
+pws
+pwd
+ls
+cat README
+cat root
+cat>prueba  
+cat prueba
+ls
+nano --version
+vi
+ls -a
+ls
+ls|wc -w
+apt
+sudo apt update
+sudo apr install
+sudo apt install
+tree
+install tree
+apt install tree
+sudo apt install tree
+tree
+nombre de usuario
+cat etc/passwd
+echo $USER
+ID
+id
+cat /etc/passwd
+ls -l
+su rodri
+sudo adduser rodri
+ls /home
+sudo passwd rodri
+groups rodri
+poweroff
+sudo poweroff
+ls -l
+pwd
+cd archivos/
+pwd
+ls -l ../../home
+cd ../../home
+ls -l ../../../home/
+pwd
+cd ../../../home/
+pwd
+cd
+pwd
+ls -l
+ls
+pwd
+ls -l
+ls -r
+tree
+echo “Usuario:$(whoami)” > datos_usuario.txt
+ls
+cat datos_usuario.txt
+echo
+/proc
+cat/proc/cpuinfo|grep modelname
+cat/proc/cpuinfo
+cat /proc/cpuinfo | grep "model name"
+cat /proc/cpuinfo | grep "model name" head -n1 >> datos_usuarios.txt
+cat /proc/cpuinfo | grep "model name" | head -n1 >> datos_usuarios.txt
+cat datos_usuario.txt
+cat /proc/cpuinfo | grep "model name"
+cat /proc/cpuinfo | grep "model name" | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+cat <<EOF>> README.md
+alumno:rodrigo
+division:318
+turno:noche
+EOF
+
+cat README.md
+cat .bash_history
+history -a
+cp .bash_history historial_comandos_rodrigo.txt
+ls
+cat historial_comandos_rodrigo.txt
+pwd
+sudo useradd -m -s /bin/bash -g grupo1 rodrigovilla 
+sudo groupadd grupo1
+sudo useradd -m -s /bin/bash -g grupo1 rodrigovilla 
+ls
+/etc/passwd
+sudo /etc/passwd
+cat sudo /etc/passwd
+cat /etc/group
+ls -l
+tree
+cat /etc/passwd
+poweroff
+vagrant off
+poweroff
+sudo poweroff
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+pwd
+cd
+pwd
+mkdir repogit
+tree
+rm -rf /repogit
+tree
+rm -rf repogitr
+rm -rf repogit
+tree
+mkdir repogit
+cd repogit
+git clone git@github.com:rodrivillaa/rodrigovilla.git
+pwd
+cd rodrigovilla/
+pwd
+ls -l
+cat /etc/os-release
+man grep 
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git config --global user.email "TU-email"
+git config --global user.name
+"Tu-Usuario"
+git config --global user.email "TU-email"
+git config --global user.name
+"Tu-Usuario"
+git config --global user.email "rodrivillaa23@gmail.com" 
+git config --global user.name "rodrivillaa" 
+git commit -m "ADD: agregar primer ejercicio sobre datos_usuarios.txt"
+git add .
+git commit -m "ADD: agregar primer ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cd datos_usuarios.txt
+cat datos_usuarios.txt
+git add .
+git commit "feat:añadiendo informacion de CPU"
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m "feat:añadiendo informacion de CPU"
+cat <<EOF >> README.md
+alumno:rodrigo villa
+division:318
+turno:noche
+EOF
+
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a 
